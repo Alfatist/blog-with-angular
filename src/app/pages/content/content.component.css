@@ -1,5 +1,4 @@
 .container__content {
-  border: 1px solid white;
   width: 100%;
   height: 100%;
   display: flex;
@@ -13,13 +12,14 @@
   border: 1px solid red;
 }
 
-.container__content > img {
+.container__content img {
   border: 5px solid rgb(144, 144, 144);
   width: 500px;
   min-width: 500px;
-  height: 300px;
+  height: auto;
 }
 
 .content_description > p {
+  margin-top: 20px;
   color: rgb(198, 197, 197);
 }

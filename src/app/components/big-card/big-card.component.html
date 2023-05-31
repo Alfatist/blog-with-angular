@@ -9,18 +9,13 @@
   </div>
   <div class="big-card__title">
     <h1>
-      <a href=""> {{ cardTitle }}</a>
+      <a [routerLink]="['content', id]"> {{ cardTitle }}</a>
     </h1>
     <p>bla bla bla bla</p>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
-        delectus soluta odit in veritatis, debitis impedit asperiores suscipit
-        qui voluptates tenetur, quas, similique ipsam exercitationem natus a
-        expedita reiciendis itaque.</a
-      >
+      <a [routerLink]="['content', id]"> {{ cardDescription }}</a>
     </p>
   </div>
 </div>

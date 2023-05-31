@@ -10,6 +10,10 @@ export class SmallCardComponent implements OnInit {
   photoCover: string = '';
   @Input()
   cardTitle: String = '';
+
+  @Input()
+  id: string = '0';
+
   constructor() {}
 
   ngOnInit(): void {}

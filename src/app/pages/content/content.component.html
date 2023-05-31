@@ -1,15 +1,13 @@
 <div class="container__content">
   <div class="content__cover">
-    <img
-      src="https://blog.megajogos.com.br/wp-content/uploads/2018/07/no-image.jpg"
-      alt="other blank image!"
-    />
+    <img src="{{ photoCover }}" alt="other blank image!" />
   </div>
   <div class="content__title">
-    <h1>My notice</h1>
+    <h1>{{ contentTitle }}</h1>
     <hr />
   </div>
   <div class="content__description">
-    <p>Hello world!</p>
+    <p>{{ contentDescription }}</p>
   </div>
+  <a [routerLink]="['']"> << VOLTAR</a>
 </div>
